@@ -1,0 +1,17 @@
+PersInt is a class which as the same suggests, you can use to create persistent Integers. 
+
+Methods -
+
+PersInt(string fileName) 
+
+	Constructor. You'll have to provide a name to construct PersInt. You must use this name the next time you refer to the integers you have created using the object created.
+	
+
+void addInt(string key, int value)
+
+	Used to add a new persistent integer. Should provide a key(which you must use to refer to that integer from now on) and the value of the integer.
+	
+int getInt(string key)
+
+	Used to get the value of a particular stored integer. Returns -9999 if no key was found.
+
