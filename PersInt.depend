@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1426265235 source:c:\users\flash\desktop\code\persint\persint.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<stdlib.h>
+
